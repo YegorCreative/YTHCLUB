@@ -561,11 +561,11 @@ body {
     justify-content: center;
     align-items: center;
     margin: 1em;
-    width: 315px;
-    height: 200px;
+    width: 215px;
+    height: 130px;
     background: rgb(172,169,218);
     background: linear-gradient(90deg, rgba(172,169,218,1) 0%, rgba(121,65,201,1) 100%);
-    font-size: 2.5em;
+    font-size: 1.5em;
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
     font-weight: 900;
