@@ -4,6 +4,7 @@ body {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+    font-family: 'Patrick Hand', cursive;
 }
 
 *, *::before, *::after {
@@ -535,14 +536,14 @@ body {
     max-width: 1020px;
     color:white;
     z-index: 100;
-    font-size: 1.8em;
+    font-size: 1.4em;
     font-weight: bold;
-    font-family: sans-serif ;
+    font-family: 'Patrick Hand', cursive;
     background: rgb(172,169,218);
     background: linear-gradient(90deg, rgba(172,169,218,1) 0%, rgba(121,65,201,1) 100%);
     margin-top: 1em;
     margin-bottom: 1em;
-    border: solid 6px white;
+    border: double 6px white;
     border-radius: 50px;
     
 }
@@ -568,7 +569,7 @@ body {
     font-family: 'Shadows Into Light', cursive;
     font-weight: 900;
     border-radius: 25px;
-    border:solid 3px white;
+    border:double 5px white;
     color: white;
     box-shadow: 4px 4px 15px 0px rgb(180, 169, 169);
 }
