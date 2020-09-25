@@ -729,4 +729,12 @@ body {
 }
 .donateSections {
     width: 100%;
+    display: flex;
+}
+.pictureWord  {
+    padding: 1em;
+    margin: 10px;
+    width: 250px;
+    background-color: plum;
+    text-align: center;
 }
