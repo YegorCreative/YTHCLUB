@@ -121,6 +121,9 @@
         flex-direction: column-reverse;
         height: auto;
       }
+      #main-footer {
+        width: 90%;
+      }
       
     }
     @media screen and (max-width: 600px) {
@@ -155,6 +158,53 @@
       }
       .menuClose {
         top: -3px;
+      }
+      #iframe {
+        width: 90%;
+        max-width: 90%;
+      }
+      #second-banner {
+        height: 550px;
+      }
+      #second-banner h3 {
+        font-size: 75px;
+      }
+      #third-banner {
+        height: 550px;
+      }
+      #third-banner h3 {
+        font-size: 75px;
+      }
+      #fourth-banner {
+        height: 550px;
+      }
+      #fourth-banner h3 {
+        font-size: 75px;
+      }
+      #main-footer {
+        flex-direction: column-reverse;
+      }
+      #donate {
+        margin: 20px 0;
+      }
+      #address {
+        text-align: center;
+      }
+    }
+
+    @media screen and (max-width: 479px) {
+      .imgB {
+        height: auto;
+        display: flex;
+      }
+      .two-blocks-info p {
+        padding: 0;
+      }
+    }
+
+    @media screen and (max-width: 380px) {
+      #fourth-banner h3 {
+        font-size: 60px;
       }
     }
   
