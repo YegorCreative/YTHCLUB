@@ -692,3 +692,29 @@ body {
 }
 
 
+/*donate */
+#main-body-banner2 {
+    background-image: url('../Assets/banner5.png');
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+}
+
+#main-body-banner2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(102, 61, 207, 0.4);
+    z-index: -1;
+} 
