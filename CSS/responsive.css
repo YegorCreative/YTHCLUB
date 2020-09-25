@@ -26,6 +26,10 @@
     display: block;
     transition: 0.3s;
   }
+
+  .overlay a.active {
+    color: pink;
+  }
   
   .overlay a:hover, .overlay a:focus {
     color: pink;
