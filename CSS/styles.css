@@ -84,6 +84,10 @@ body {
     font-size: 25px;
 }
 
+.main-menu-list li a.active {
+    color: #E30909;
+}
+
 .main-menu-list li a:hover {
     color: #E30909;
 }
