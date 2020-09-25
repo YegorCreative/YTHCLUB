@@ -248,7 +248,7 @@ body {
 }
 
 #second-banner {
-    background-image: url('../Assets/banner2.jpg');
+    background-image: url('../Assets/banner2.png');
     height: 650px;
     display: flex;
     align-items: center;
