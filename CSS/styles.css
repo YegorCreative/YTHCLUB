@@ -668,7 +668,9 @@ body {
 .container2 h1 {
     text-align: center;
     padding-bottom: 1em;
-  text-shadow: 2px 2px white;
+    text-shadow: 2px 2px white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .hey1 {
     font-size: 8em ;  

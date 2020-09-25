@@ -83,6 +83,9 @@
       #second-banner, #main-body-banner, #third-banner, #fourth-banner {
         background-attachment: unset;
       }
+      .story1-reverse {
+        flex-direction: column-reverse;
+      }
     }
     @media screen and (max-width: 940px) {
       .two-blocks-info p {
@@ -172,6 +175,9 @@
       #address {
         text-align: center;
       }
+      .hey1 {
+        font-size: 6em;
+      }
     }
 
     @media screen and (max-width: 479px) {
@@ -181,6 +187,16 @@
       }
       .two-blocks-info p {
         padding: 0;
+      }
+      .hey1 {
+        font-size: 4em;
+      }
+      .story1 p {
+        padding-left: 1em;
+        padding-right: 1em;
+      }
+      .story1 {
+        margin: 0;
       }
     }
 
