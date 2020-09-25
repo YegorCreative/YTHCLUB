@@ -80,6 +80,9 @@
       .nameSurname,.aboutName{
         width: 100%;
       }
+      #second-banner, #main-body-banner, #third-banner, #fourth-banner {
+        background-attachment: local;
+      }
     }
     @media screen and (max-width: 940px) {
       .two-blocks-info p {
@@ -127,22 +130,13 @@
       
     }
     @media screen and (max-width: 600px) {
-      #top-head p {
-        display: none;
-      }
-      #top-head .phoneN {
-        display: none;
-      }
-      #top-head .socialM {
+      #top-head p, #top-head .phoneN, #top-head .socialM {
         display: none;
       }
       .overlay-content .socialM {
         display: flex;
       }
-      .overlay-content .phoneN {
-        display: block;
-      }
-      .overlay-content p {
+      .overlay-content .phoneN, .overlay-content p {
         display: block;
       }
       .overlay-content {
@@ -163,22 +157,10 @@
         width: 90%;
         max-width: 90%;
       }
-      #second-banner {
+      #second-banner, #third-banner, #fourth-banner {
         height: 550px;
       }
-      #second-banner h3 {
-        font-size: 75px;
-      }
-      #third-banner {
-        height: 550px;
-      }
-      #third-banner h3 {
-        font-size: 75px;
-      }
-      #fourth-banner {
-        height: 550px;
-      }
-      #fourth-banner h3 {
+      #second-banner h3, #third-banner h3, #fourth-banner h3 {
         font-size: 75px;
       }
       #main-footer {
