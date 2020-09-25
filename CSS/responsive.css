@@ -81,7 +81,7 @@
         width: 100%;
       }
       #second-banner, #main-body-banner, #third-banner, #fourth-banner {
-        background-attachment: local;
+        background-attachment: unset;
       }
     }
     @media screen and (max-width: 940px) {
