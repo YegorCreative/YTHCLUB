@@ -756,3 +756,12 @@ body {
     border-radius: 15px;
     border: double 3px white;
 }
+.donateNow {
+    width: 100%;
+    background-color: #c7dbbeb4;
+    display:flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+}
