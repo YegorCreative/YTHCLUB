@@ -742,11 +742,15 @@ body {
 .pictureWord  {
     padding: 0.6em;
     margin: 10px;
-    width: 650px;
+    width: 350px;
     min-width: 310px;
     background-color: plum;
     box-sizing: border-box;
     border-radius: 15px;
     border: double 4px pink;
     text-align: center;
+}
+.pictureWord img {
+    border-radius: 15px;
+    border: double 3px white;
 }
