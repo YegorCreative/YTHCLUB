@@ -742,7 +742,8 @@ body {
 .pictureWord  {
     padding: 0.6em;
     margin: 10px;
-    width: 310px;
+    min-width: 310px;
+    max-width: 650px;
     background-color: plum;
     box-sizing: border-box;
     border-radius: 15px;
