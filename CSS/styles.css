@@ -734,11 +734,14 @@ body {
 .donateSections {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
 }
 .pictureWord  {
     padding: 1em;
     margin: 10px;
-    width: 250px;
+    width: 310px;
     background-color: plum;
     text-align: center;
 }
