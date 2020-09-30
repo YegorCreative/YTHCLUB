@@ -26,7 +26,6 @@ $(document).ready(function () {
   $(".main-menu-list a").click(function () {
     var id = $(this);
     $(".active").removeClass("active");
-    $(id).addClass("active");
     localStorage.setItem("selectedolditem", $(id).text());
   });
   var selectedolditem = localStorage.getItem('selectedolditem');
@@ -38,7 +37,6 @@ $(document).ready(function () {
   $(".overlay-content a").click(function () {
     var id = $(this);
     $(".active").removeClass("active");
-    $(id).addClass("active");
     localStorage.setItem("selectedolditem", $(id).text());
   });
   var selectedolditem = localStorage.getItem('selectedolditem');
@@ -46,6 +44,8 @@ $(document).ready(function () {
   if (selectedolditem !== null) {
     $("a:contains('" + selectedolditem + "')").addClass("active");
   }
+
 });
+
 
 // About page 
