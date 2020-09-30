@@ -84,9 +84,6 @@
       .nameSurname,.aboutName{
         width: 100%;
       }
-      #second-banner, #main-body-banner, #third-banner, #fourth-banner {
-        background-attachment: unset;
-      }
       .story1-reverse {
         flex-direction: column-reverse;
       }
@@ -181,6 +178,9 @@
       }
       .hey1 {
         font-size: 6em;
+      }
+      #second-banner, #main-body-banner, #third-banner, #fourth-banner {
+        background-attachment: unset;
       }
     }
 

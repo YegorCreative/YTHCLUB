@@ -45,6 +45,10 @@ $(document).ready(function () {
     $("a:contains('" + selectedolditem + "')").addClass("active");
   }
 
+  $("#top-head a img").click(function () {
+    $(".main-menu-list li a").removeClass("acitve");
+  })
+
 });
 
 
