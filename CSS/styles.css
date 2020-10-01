@@ -810,6 +810,7 @@ svg#freepik_stories-mail-sent.animated #freepik--Character--inject-51 {animation
      margin: 0;
      width: 100%;
      display: flex;
+     flex-wrap: wrap;
      justify-content: center;
      margin-bottom: 10px;
  }
@@ -817,7 +818,7 @@ svg#freepik_stories-mail-sent.animated #freepik--Character--inject-51 {animation
  .socialM2 a {
     background-color: #5e3ed6;
     color: white;
-    font-size: 5em;
+    font-size: 3em;
 }
 
 .fa2:hover {
@@ -828,8 +829,8 @@ svg#freepik_stories-mail-sent.animated #freepik--Character--inject-51 {animation
 }
 
 .fa2 {
-    width: 120px;
-    height: 115px;
+    width: 80px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
