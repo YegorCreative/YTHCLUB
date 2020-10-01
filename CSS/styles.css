@@ -10,6 +10,7 @@ body {
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
 #button {
     display: inline-block;
     background-color: #8A2BE2;
@@ -85,11 +86,11 @@ body {
 }
 
 .main-menu-list li a.active {
-    color: #E30909;
+    color: #f0f0f0;
 }
 
 .main-menu-list li a:hover {
-    color: #E30909;
+    color: #f0f0f0;
 }
 
 #top-head {
@@ -150,7 +151,8 @@ body {
     justify-content: center;
     flex-direction: column;
     background-attachment: fixed;
-    background-size: cover;
+    /* background-size: cover; */
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -259,7 +261,8 @@ body {
     justify-content: center;
     flex-direction: column;
     background-attachment: fixed;
-    background-size: cover;
+    /* background-size: cover; */
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -330,7 +333,8 @@ body {
     justify-content: center;
     flex-direction: column;
     background-attachment: fixed;
-    background-size: cover;
+    /* background-size: cover; */
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -390,7 +394,8 @@ body {
     justify-content: center;
     flex-direction: column;
     background-attachment: fixed;
-    background-size: cover;
+    /* background-size: cover; */
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -495,7 +500,8 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -707,7 +713,8 @@ body {
     justify-content: center;
     flex-direction: column;
     background-attachment: fixed;
-    background-size: cover;
+    /* background-size: cover; */
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -775,7 +782,8 @@ body {
     justify-content: center;
     flex-direction: column;
     background-attachment: fixed;
-    background-size: cover;
+    /* background-size: cover; */
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
