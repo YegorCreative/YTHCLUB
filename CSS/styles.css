@@ -151,7 +151,7 @@ body {
     justify-content: center;
     flex-direction: column;
     background-attachment: fixed;
-    /* background-size: cover; */
+    background-size: cover;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -261,7 +261,7 @@ body {
     justify-content: center;
     flex-direction: column;
     background-attachment: fixed;
-    /* background-size: cover; */
+    background-size: cover;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -333,7 +333,7 @@ body {
     justify-content: center;
     flex-direction: column;
     background-attachment: fixed;
-    /* background-size: cover; */
+    background-size: cover;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -394,7 +394,7 @@ body {
     justify-content: center;
     flex-direction: column;
     background-attachment: fixed;
-    /* background-size: cover; */
+    background-size: cover;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -500,7 +500,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -713,7 +713,7 @@ body {
     justify-content: center;
     flex-direction: column;
     background-attachment: fixed;
-    /* background-size: cover; */
+    background-size: cover;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -782,7 +782,7 @@ body {
     justify-content: center;
     flex-direction: column;
     background-attachment: fixed;
-    /* background-size: cover; */
+    background-size: cover;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
